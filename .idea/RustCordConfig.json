@@ -1,0 +1,104 @@
+{
+  "Apikey": "NjYwMTM4NTkwMzk4ODQwODk0.XgYf-A.Rb54dt1KunUSD-NOw_vofP5qXos",
+  "AutoReloadPlugin": true,
+  "AutoReloadTime": 901,
+  "GameChatTag": "[Rust Generation]",
+  "GameChatTagColor": "#7289DA",
+  "GameChatNameColor": "#55aaff",
+  "GameChatTextColor": "#ffffff",
+  "LogChat": true,
+  "LogJoinQuits": true,
+  "LogDeaths": true,
+  "LogCrateDrops": false,
+  "LogUserGroups": true,
+  "LogPermissions": true,
+  "LogKickBans": true,
+  "LogNameChanges": true,
+  "LogServerCommands": true,
+  "LogServerMessages": true,
+  "LogF7Reports": true,
+  "LogTeams": true,
+  "LogVehicleSpawns": false,
+  "LogPluginAdminHammer": false,
+  "LogPluginAdminRadar": false,
+  "LogPluginBetterChatMute": true,
+  "LogPluginClans": true,
+  "LogPluginDiscordAuth": true,
+  "LogPluginPrivateMessages": true,
+  "LogPluginRaidableBases": false,
+  "LogPluginSignArtist": true,
+  "LogPluginVanish": false,
+  "ReportCommand": "rep",
+  "Commandprefix": "?",
+  "Channels":[
+    {
+      "Channelid":"602164860385624095",
+      "perms":[
+        "cmd_allow",
+        "cmd_players",
+        "cmd_kick",
+        "msg_quit",
+        "msg_chat",
+        "msg_teamchat",
+        "death_pvp",
+        "death_npc",
+        "death_animal",
+        "death_vehicle",
+        "msg_serverinit"
+      ]
+    },
+    {
+      "Channelid":"670122111167365153",
+      "perms":[
+        "msg_joinlog"
+      ]
+    },
+    {
+      "Channelid":"579527108469194762",
+      "perms":[
+        "game_report"
+      ]
+    },
+    {
+      "Channelid":"627170760389165096",
+      "perms":[
+        "game_bug",
+        "ganme_report"
+      ]
+    }
+  ],
+  "Commandprefix":"!",
+  "Commandroles":{
+    "players":[
+    ],
+    "kick":[
+      "Admins",
+      "Staff",
+      "Mods"
+    ],
+    "mute":[
+      "Admins",
+      "Staff",
+      "Mods"
+    ],
+    "unmute":[
+      "Admins",
+      "Staff",
+      "Mods"
+    ],
+    "com":[
+      "Admins",
+      "Staff"
+    ]
+  },
+  "FilteredWord":"<censored>",
+  "FilterWords":[
+    "null"
+  ],
+  "LogExcludeGroups": [
+    "default"
+  ],
+  "LogExcludePerms": [
+    "example.permission"
+  ]
+}
